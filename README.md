@@ -2,7 +2,7 @@
 I made this portfolio website completely based on the design of "<a href="https://www.youtube.com/watch?v=Vp6GC3jKG20&t">Build & Deploy a Personal Portfolio with TailwindCSS - 2022 Edition</a>" developed in Tailwind CSS to expose some personal projects.
 
 
-website deployed link: https://jonathan-dev.onrender.com/
+Website deployed link: https://jonathan-dev.onrender.com/
 
 
 ### Preview :
