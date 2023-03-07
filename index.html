@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/portfolioIcon.ico"><!-- Icon available at: https://icon-icons.com/icon/services-portfolio-seo/55726 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <title>Jonathan's Portfolio</title>
+</head>
+<body class="bg-body text-white font-poppins pb-12">
+    
+    <!-- Header -->
+    <header class="py-6">
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        
+            <div class="text-lg font-bold">Jonathan de Oliveira</div>
+
+            <div class="hidden md:flex space-x-12 items-center">
+                <a href="#" class="text-selected-text">Home</a>
+                <a href="#aboutme">About me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact"><button class="px-6 py-2 bg-theme font-bold">Contact</button></a>
+            </div>
+
+            <div class="md:hidden">
+               <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
+            </div> 
+
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <div class="flex flex-wrap md:flex-nowrap">
+
+            <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+
+                <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+                    <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
+                    </a>
+
+                    <a href="#aboutme" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">About</span>
+                    </a>
+
+                    <a href="#projects" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Projects</span>
+                    </a>
+                
+                    <a href="#contact" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contact</span>
+                    </a>
+                </div>
+
+            </nav>
+
+            <!-- Initial page -->
+            <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
+                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Building<br> beautiful web experiences.</h1>
+
+                <div class="w-full flex justify-center md:justify-start">
+                    <a href="#projects"><button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
+
+                        <div>
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z" fill="white"/>
+                                <path d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z" fill="white"/>
+                            </svg>								
+                        </div>
+
+                        <span>View my projects.</span>
+                    </button></a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- About me -->
+    <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+            <h2 id="aboutme" class="secondary-title">About me</h2>
+            <p class="section-paragraph">I'm a beginner developer and I'm looking for opportunities to develop myself professionally! I study both front-end (HTML, CSS and JavaScript) and back-end (Node.js, Django, MySQL and MongoDB).</p>
+            <p class="section-paragraph">Hello, my name is Jonathan de Oliveira Rocha, I'm 20 years old and I live in Brazil. I have always been a technology and logic lover, and as soon as I finished high school, in 2021, I enrolled in a Systems Analysis and Development course (This course is valid as higher education in Brazil). In 2022, I joined an online Web Development course taught by IBM, and I knew right away that it was the area I would like to pursue. In order to then delve deeper into the area, at the end of 2022 I enrolled in a technical course in Computing for the Internet (Valid as an intermediate degree in Brazil).</p>
+        
+            <a href="./pdf/resume.pdf"><button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
+
+                <div>
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z" fill="white"/>
+                        <path d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z" fill="white"/>
+                    </svg>								
+                </div>
+
+                <span>View my CV</span>
+            </button></a>
+        </section>
+        
+    </div>
+
+    <!-- Personal Projects -->
+    <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+            <h2 id="projects" class="secondary-title">Personal Projects</h2>
+            <p class="section-paragraph">These are some of my personal projects that I did during my studies!</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+            
+                <a href=""><img src="https://as1.ftcdn.net/v2/jpg/00/92/66/20/1000_F_92662026_9fiMh5jgCBIo9il3sQgMQCXdZ0W5afBa.jpg"></a>
+                <a href=""><img src="https://as1.ftcdn.net/v2/jpg/00/92/66/20/1000_F_92662026_9fiMh5jgCBIo9il3sQgMQCXdZ0W5afBa.jpg"></a>
+                <a href=""><img src="https://as1.ftcdn.net/v2/jpg/00/92/66/20/1000_F_92662026_9fiMh5jgCBIo9il3sQgMQCXdZ0W5afBa.jpg"></a>
+                
+                
+            </div>
+        </section>
+    </div>
+
+    
+
+
+    <!-- Contact -->
+    <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+            <h2 id="contact" class="secondary-title">Contact me</h2>
+            <p class="section-paragraph">Please feel free to contact me in any way below...</p>
+
+            <a href="mailto:jonathandeoliveirarocha2002@gmail.com"><button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
+                <div>
+                    <img src="./img/email.png" alt="E-mail icon">
+                    <!-- Icon available at: https://icon-icons.com/pt/icone/novo-email-bruto-envelope-descrito-simbolo/74136 -->						
+                </div>
+                
+                <span>Send me a email</span>
+            </button></a>
+            
+
+                <div class="mt-12">
+                    
+                    <!-- Contact Information -->
+                    <p class="text-secondary">+55 (31) 9 9941-4881</p>
+                    <a href="mailto:jonathandeoliveirarocha2002@gmail.com" class="text-secondary underline mt-3 block">jonathandeoliveirarocha2002@gmail.com</a>
+
+                    <!-- Social Media -->
+                    <div class="flex mt-20 space-x-6">
+
+                        <!-- GitHub -->
+                        <a href="https://github.com/jonathanoliveirarocha">
+                            <img src="./img/github.png" alt="GitHub logo">
+                            <!-- Icon available at: https://iconscout.com/icon/github-1521500 -->
+                        </a>
+
+                        <!-- Linkedin -->
+                        <a href="https://www.linkedin.com/in/jonathandeoliveirarocha">
+                            <img src="./img/linkedin.png" alt="Linkedin logo">
+                            <!-- Icon available at: https://iconduck.com/icons/13114/linkedin-original -->
+                        </a>
+                        
+                        <!-- WhatsApp -->
+                        <a href="https://api.whatsapp.com/send?phone=5531999414881&text=Hello,%20I%20was%20on%20your%20portfolio%20website%20and%20would%20like%20more%20information!">
+                            <img src="./img/whatsapp.png" alt="WhatsApp logo">
+                            <!-- Icon available at: https://iconscout.com/icon/whatsapp-37 -->
+                        </a>
+
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+
+
+</body>
+</html>
+
+<!-- Design completely based on: https://www.youtube.com/watch?v=Vp6GC3jKG20 -->
